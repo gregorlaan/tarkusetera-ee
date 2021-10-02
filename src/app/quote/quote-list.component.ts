@@ -3,11 +3,11 @@ import { Quote } from './shared/quote.model';
 import { QuoteService } from './shared/quote.service';
 
 @Component({
-  selector: 'app-quote',
-  templateUrl: './quote.component.html',
-  styleUrls: ['./quote.component.scss']
+  selector: 'app-quote-list',
+  templateUrl: './quote-list.component.html',
+  styleUrls: ['./quote-list.component.scss']
 })
-export class QuoteComponent implements OnInit {
+export class QuoteListComponent implements OnInit {
   public quotes: Quote[] = [];
 
   constructor(private quoteService: QuoteService) { }

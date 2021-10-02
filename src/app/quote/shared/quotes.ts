@@ -3,6 +3,7 @@ import { Quote } from './quote.model';
 export const QUOTES: Quote[] = [
   {
     "desc": "Saunas käimine võib osaliselt pakkuda trenniga samaväärseid hüvesid.",
+    "slug": "saunas-kaeimine-voib-osaliselt-pakkuda-trenniga-samavaeaerseid-huevesid",
     "isoDate": "2021-07-01",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CQyFcWaDz-6/",
@@ -13,6 +14,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Konflikti edasi lükkamine tagab suurema konflikti.",
+    "slug": "konflikti-edasi-luekkamine-tagab-suurema-konflikti",
     "isoDate": "2021-07-02",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CQ1HTbmDH-t/",
@@ -23,6 +25,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Füüsiline tegevus aitab tõsta tuju ja langetada ärevustunnet.",
+    "slug": "fueuesiline-tegevus-aitab-tosta-tuju-ja-langetada-aerevustunnet",
     "isoDate": "2021-07-03",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CQ3xsUhnGcw/",
@@ -33,6 +36,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Hommikune trenn tagab kiirema uinumise ja sügavama une.",
+    "slug": "hommikune-trenn-tagab-kiirema-uinumise-ja-suegavama-une",
     "isoDate": "2021-07-05",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CQ7zCF3FLMh/",
@@ -43,6 +47,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Armid näitavad inimese elukogemust ja väärikaid õppetunde.",
+    "slug": "armid-naeitavad-inimese-elukogemust-ja-vaeaerikaid-oppetunde",
     "isoDate": "2021-07-06",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CQ-7v3NlSVh/",
@@ -53,6 +58,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kummeli tee aitab lõõgastuda.",
+    "slug": "kummeli-tee-aitab-loogastuda",
     "isoDate": "2021-07-07",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRBJ6YflF09/",
@@ -63,6 +69,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tuleta endale aeg-ajalt meelde - Elu on lühike!",
+    "slug": "tuleta-endale-aeg-ajalt-meelde-elu-on-luehike",
     "isoDate": "2021-07-08",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRDt4LtDCCm/",
@@ -73,6 +80,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Hilisõhtused jalutuskäigud aitavad kergemini uinuda.",
+    "slug": "hilisohtused-jalutuskaeigud-aitavad-kergemini-uinuda",
     "isoDate": "2021-07-09",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRGlUW5DRON/",
@@ -83,6 +91,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kui eelmise aasta sina ei tekita piinlikust, siis ei ole sa aastaga piisavalt arenenud.",
+    "slug": "kui-eelmise-aasta-sina-ei-tekita-piinlikust-siis-ei-ole-sa-aastaga-piisavalt-arenenud",
     "isoDate": "2021-07-10",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRJOCVPjNoR/",
@@ -93,6 +102,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära vaidle lihtsalt vaidlemise pärast.",
+    "slug": "aera-vaidle-lihtsalt-vaidlemise-paerast",
     "isoDate": "2021-07-12",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRN43xGjAf1/",
@@ -103,6 +113,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära võrdle ennast kellegi teisega. Võrdle ennast sellega, kes sa olid eile.",
+    "slug": "aera-vordle-ennast-kellegi-teisega-vordle-ennast-sellega-kes-sa-olid-eile",
     "isoDate": "2021-07-13",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRQeuPxDkeq/",
@@ -113,6 +124,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Me kuuleme tihtipeale seda, mida me tahame kuulda, ning jätame kõik muu tähelepanuta.",
+    "slug": "me-kuuleme-tihtipeale-seda-mida-me-tahame-kuulda-ning-jaetame-koik-muu-taehelepanuta",
     "isoDate": "2021-07-14",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRTCXrWjsyX/",
@@ -123,6 +135,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ennekõike peaksid sa iseennast hindama.",
+    "slug": "ennekoike-peaksid-sa-iseennast-hindama",
     "isoDate": "2021-07-15",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRVzHyeDvT9/",
@@ -133,6 +146,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Treenimine ja puhkamine peavad olema tasakaalus.",
+    "slug": "treenimine-ja-puhkamine-peavad-olema-tasakaalus",
     "isoDate": "2021-07-16",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRYKcEXjoum/",
@@ -143,6 +157,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kava Kava tee aitab kergemini uinuda.",
+    "slug": "kava-kava-tee-aitab-kergemini-uinuda",
     "isoDate": "2021-07-17",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRbMojuDRpB/",
@@ -153,6 +168,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Hea füüsilise vormi saavutamine on efektiivne viis enesekindluse tõstmiseks.",
+    "slug": "hea-fueuesilise-vormi-saavutamine-on-efektiivne-viis-enesekindluse-tostmiseks",
     "isoDate": "2021-07-19",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRgD0ypDGnQ/",
@@ -163,6 +179,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ümbritse ennast positiivsete inimestega.",
+    "slug": "uembritse-ennast-positiivsete-inimestega",
     "isoDate": "2021-07-20",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRig_CKjGFZ/",
@@ -173,6 +190,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Produktiivne päev saab alguse juba eelmisel õhtul.",
+    "slug": "produktiivne-paeev-saab-alguse-juba-eelmisel-ohtul",
     "isoDate": "2021-07-21",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRlNSWZDsj1/",
@@ -183,6 +201,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tee seda, mida armastad, aga veel parem: armasta seda, mida teed!",
+    "slug": "tee-seda-mida-armastad-aga-veel-parem-armasta-seda-mida-teed",
     "isoDate": "2021-07-22",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRnpDgPDYAV/",
@@ -193,6 +212,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kui sul pole õrna aimugi, mis toimub, siis lihtsalt naerata.",
+    "slug": "kui-sul-pole-orna-aimugi-mis-toimub-siis-lihtsalt-naerata",
     "isoDate": "2021-07-23",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRqphfMj8PF/",
@@ -203,6 +223,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära muretse asjade üle, mille käiku sa muuta ei saa.",
+    "slug": "aera-muretse-asjade-uele-mille-kaeiku-sa-muuta-ei-saa",
     "isoDate": "2021-07-24",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRtJX5YD6aT/",
@@ -213,6 +234,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Andmisrõõm on kõige suurem rõõm.",
+    "slug": "andmisroom-on-koige-suurem-room",
     "isoDate": "2021-07-26",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CRyKwReDPCW/",
@@ -223,6 +245,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Õppimise edukus sõltub õppija oskusest õppida.",
+    "slug": "oppimise-edukus-soltub-oppija-oskusest-oppida",
     "isoDate": "2021-07-27",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CR0oMlAj1Ma/",
@@ -233,6 +256,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tähtsate asjade jaoks tuleb aega teha.",
+    "slug": "taehtsate-asjade-jaoks-tuleb-aega-teha",
     "isoDate": "2021-07-28",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CR3DqUqD0L-/",
@@ -243,6 +267,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Suured saavutused saavad alguse väikestest tegudest.",
+    "slug": "suured-saavutused-saavad-alguse-vaeikestest-tegudest",
     "isoDate": "2021-07-29",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CR5nJwWD2MY/",
@@ -253,6 +278,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Alusta päeva klaasi sooja veega.",
+    "slug": "alusta-paeeva-klaasi-sooja-veega",
     "isoDate": "2021-07-30",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CR8SSMTjazo/",
@@ -263,6 +289,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Trenni tegemine muudab suitsetamise mahajätmise kergemaks.",
+    "slug": "trenni-tegemine-muudab-suitsetamise-mahajaetmise-kergemaks",
     "isoDate": "2021-07-31",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CR_SNQuDngx/",
@@ -273,6 +300,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Mida raskem on treening, seda kergem on lahing.",
+    "slug": "mida-raskem-on-treening-seda-kergem-on-lahing",
     "isoDate": "2021-08-02",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSD88bbj2V_/",
@@ -283,6 +311,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Head asjad tulevad neile, kes teavad, kuidas oodata.",
+    "slug": "head-asjad-tulevad-neile-kes-teavad-kuidas-oodata",
     "isoDate": "2021-08-03",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSGc6OjjgED/",
@@ -293,6 +322,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kes ei riski, see šampust ei joo.",
+    "slug": "kes-ei-riski-see-sampust-ei-joo",
     "isoDate": "2021-08-04",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSJHMTfDgJY/",
@@ -303,6 +333,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tunne rõõmu väikestest asjadest.",
+    "slug": "tunne-roomu-vaeikestest-asjadest",
     "isoDate": "2021-08-05",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSLpmzTjjwo/",
@@ -313,6 +344,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ole eeskujuks oma tegudega.",
+    "slug": "ole-eeskujuks-oma-tegudega",
     "isoDate": "2021-08-06",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSOFGjsDouV/",
@@ -323,6 +355,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Eesmärgid ja väärtused peaksid olema kooskõlas.",
+    "slug": "eesmaergid-ja-vaeaertused-peaksid-olema-kooskolas",
     "isoDate": "2021-08-07",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSRA20kD8Mp/",
@@ -333,6 +366,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Üks elu suurimaid vigu on lasta hirmul ennast heidutada.",
+    "slug": "ueks-elu-suurimaid-vigu-on-lasta-hirmul-ennast-heidutada",
     "isoDate": "2021-08-09",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSV9kPIDmfj/",
@@ -344,6 +378,7 @@ export const QUOTES: Quote[] = [
   ,
   {
     "desc": "Naeratus on nakkav ja teeb ka teistel tuju heaks.",
+    "slug": "naeratus-on-nakkav-ja-teeb-ka-teistel-tuju-heaks",
     "isoDate": "2021-08-10",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSYjpdED82G/",
@@ -354,6 +389,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Paraguai suhkruleht ehk Stevia on tervislikum alternatiiv suhkrule.",
+    "slug": "paraguai-suhkruleht-ehk-stevia-on-tervislikum-alternatiiv-suhkrule",
     "isoDate": "2021-08-11",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSbI7EaDqSl/",
@@ -364,6 +400,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Õnnelikud inimesed on alati ilusad.",
+    "slug": "onnelikud-inimesed-on-alati-ilusad",
     "isoDate": "2021-08-12",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSdruOpjHMO/",
@@ -374,6 +411,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ole parim versioon iseendast.",
+    "slug": "ole-parim-versioon-iseendast",
     "isoDate": "2021-08-13",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSgS_BKjpJU/",
@@ -384,6 +422,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Perekonda ei saa valida, sõpru aga küll.",
+    "slug": "perekonda-ei-saa-valida-sopru-aga-kuell",
     "isoDate": "2021-08-14",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSjKHDtDRtc/",
@@ -394,6 +433,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kodu on seal, kus sind kõige rohkem armastatakse.",
+    "slug": "kodu-on-seal-kus-sind-koige-rohkem-armastatakse",
     "isoDate": "2021-08-16",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSoEi73jtuO/",
@@ -404,6 +444,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ela iga päeva nii, nagu oleks see viimane.",
+    "slug": "ela-iga-paeeva-nii-nagu-oleks-see-viimane",
     "isoDate": "2021-08-17",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSqr9FbDcMV/",
@@ -414,6 +455,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära maga elu maha.",
+    "slug": "aera-maga-elu-maha",
     "isoDate": "2021-08-18",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CStFuMPjNr5/",
@@ -424,6 +466,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Seal, kus on suur armastus, sünnib alati imesid.",
+    "slug": "seal-kus-on-suur-armastus-suennib-alati-imesid",
     "isoDate": "2021-08-19",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSvqThBj8dn/",
@@ -434,6 +477,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Täna on see homne päev, millest eile rääkisid.",
+    "slug": "taena-on-see-homne-paeev-millest-eile-raeaekisid",
     "isoDate": "2021-08-20",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CSyTzk4DUMM/",
@@ -444,6 +488,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Jagatud rõõm on topeltrõõm.",
+    "slug": "jagatud-room-on-topeltroom",
     "isoDate": "2021-08-21",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CS1CuacjQKV/",
@@ -454,6 +499,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära lase vihmase ilmaga nina norgu. Parem hüppa suurtes poriloikudes ja tunne elust rõõmu.",
+    "slug": "aera-lase-vihmase-ilmaga-nina-norgu-parem-hueppa-suurtes-poriloikudes-ja-tunne-elust-roomu",
     "isoDate": "2021-08-23",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CS6DeqyjNQL/",
@@ -464,6 +510,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Elu on suurepärane õpetaja.",
+    "slug": "elu-on-suurepaerane-opetaja",
     "isoDate": "2021-08-24",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CS8uJnWjEFI/",
@@ -474,6 +521,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Jagatud mure on pool muret.",
+    "slug": "jagatud-mure-on-pool-muret",
     "isoDate": "2021-08-25",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CS_IuCkDLO_/",
@@ -484,6 +532,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tõeline sõber ei naera kui sa püksi pissid, ta pissib koos sinuga.",
+    "slug": "toeline-sober-ei-naera-kui-sa-pueksi-pissid-ta-pissib-koos-sinuga",
     "isoDate": "2021-08-26",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTBrw7ijph3/",
@@ -494,6 +543,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Hea sõber ei võta sinu saavutusi ja häid uudiseid kui hooplemist.",
+    "slug": "hea-sober-ei-vota-sinu-saavutusi-ja-haeid-uudiseid-kui-hooplemist",
     "isoDate": "2021-08-27",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTEYWlODYUQ/",
@@ -504,6 +554,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kuula hoolikalt selleks, et mõista. Ära kuula ainult sellepärast, et vastata.",
+    "slug": "kuula-hoolikalt-selleks-et-moista-aera-kuula-ainult-sellepaerast-et-vastata",
     "isoDate": "2021-08-28",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTHDdS5jveu/",
@@ -514,6 +565,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära võta inimesi, asju ja õnne iseenesestmõistetavana.",
+    "slug": "aera-vota-inimesi-asju-ja-onne-iseenesestmoistetavana",
     "isoDate": "2021-08-30",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTMHtTnDN1A/",
@@ -524,6 +576,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Naer ja loomad on ideaalsed ravimid hingele.",
+    "slug": "naer-ja-loomad-on-ideaalsed-ravimid-hingele",
     "isoDate": "2021-08-31",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTOoSFpjoEx/",
@@ -534,6 +587,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tee täna häid valikuid, et sa ei peaks homme kahetsema.",
+    "slug": "tee-taena-haeid-valikuid-et-sa-ei-peaks-homme-kahetsema",
     "isoDate": "2021-09-01",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTRHL6fDXPv/",
@@ -544,6 +598,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Pole olemas halba ilma – on vaid karastamata keha ja halvasti valitud riietus.",
+    "slug": "pole-olemas-halba-ilma-on-vaid-karastamata-keha-ja-halvasti-valitud-riietus",
     "isoDate": "2021-09-02",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTT9tlZjzJN/",
@@ -554,6 +609,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kiusatused, proovile panekud ja nendega kaasnevad kannatused on lahutamatu osa inimese elust.",
+    "slug": "kiusatused-proovile-panekud-ja-nendega-kaasnevad-kannatused-on-lahutamatu-osa-inimese-elust",
     "isoDate": "2021-09-03",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTWYpdgD8fM/",
@@ -564,6 +620,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kuulujutt vaibub, kui see jõuab targa inimese kõrvu.",
+    "slug": "kuulujutt-vaibub-kui-see-jouab-targa-inimese-korvu",
     "isoDate": "2021-09-04",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTY3C2XDzUc/",
@@ -574,6 +631,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ära ole lihtsalt hõivatud, ole produktiivne.",
+    "slug": "aera-ole-lihtsalt-hoivatud-ole-produktiivne",
     "isoDate": "2021-09-06",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTeEQgfDYr8/",
@@ -584,6 +642,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Iga päev, iga hetk on kui uus võimalus.",
+    "slug": "iga-paeev-iga-hetk-on-kui-uus-voimalus",
     "isoDate": "2021-09-07",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTgoc8ljV77/",
@@ -594,6 +653,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Sa pole täna enam see, kes sa olid eile.",
+    "slug": "sa-pole-taena-enam-see-kes-sa-olid-eile",
     "isoDate": "2021-09-08",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTjQguhDDcS/",
@@ -604,6 +664,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Tee iga päev natukene, võta aega ja ole iseendaga aus.",
+    "slug": "tee-iga-paeev-natukene-vota-aega-ja-ole-iseendaga-aus",
     "isoDate": "2021-09-09",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTlyJ-ZjQQa/",
@@ -614,6 +675,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Kõike, mida sa teed, tee suure hoolega.",
+    "slug": "koike-mida-sa-teed-tee-suure-hoolega",
     "isoDate": "2021-09-10",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTojenMNexs/",
@@ -624,6 +686,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Hommik on parim aeg teadmiste ja uute oskuste omandamiseks.",
+    "slug": "hommik-on-parim-aeg-teadmiste-ja-uute-oskuste-omandamiseks",
     "isoDate": "2021-09-11",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTrQqmetAEs/",
@@ -634,6 +697,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Oma vigade tunnistamine on sageli raske, kuid õige teguviis.",
+    "slug": "oma-vigade-tunnistamine-on-sageli-raske-kuid-oige-teguviis",
     "isoDate": "2021-09-13",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTwKl23NjI9/",
@@ -644,6 +708,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Alusta hommikut naeratusega.",
+    "slug": "alusta-hommikut-naeratusega",
     "isoDate": "2021-09-14",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CTyq2xINx3L/",
@@ -654,6 +719,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Katsumused ja eksimused on osa õppimise protsessist.",
+    "slug": "katsumused-ja-eksimused-on-osa-oppimise-protsessist",
     "isoDate": "2021-09-15",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CT1ar0NNQkx/",
@@ -664,6 +730,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ole lugupidav isegi siis kui sa ei nõustu inimese väljavaadetega.",
+    "slug": "ole-lugupidav-isegi-siis-kui-sa-ei-noustu-inimese-vaeljavaadetega",
     "isoDate": "2021-09-16",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CT32FTnNDmV/",
@@ -674,6 +741,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Parim sõber ei lase sul teha rumalaid tegevusi... üksi.",
+    "slug": "parim-sober-ei-lase-sul-teha-rumalaid-tegevusi-ueksi",
     "isoDate": "2021-09-17",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CT6cnnBNYP2/",
@@ -684,6 +752,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Ümbritse ennast inspireerivate inimestega.",
+    "slug": "uembritse-ennast-inspireerivate-inimestega",
     "isoDate": "2021-09-18",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CT8_byrNyV_/",
@@ -694,6 +763,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Iga hommik on kingitus.",
+    "slug": "iga-hommik-on-kingitus",
     "isoDate": "2021-09-20",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUCIv7JtMYL/",
@@ -704,6 +774,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Lõpeta liigne mõtlemine ja ela hetkes.",
+    "slug": "lopeta-liigne-motlemine-ja-ela-hetkes",
     "isoDate": "2021-09-21",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUEti84t-kg/",
@@ -714,6 +785,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Pisike osa elust on väljakutsed, oluliselt suurema osa moodustab see kuidas sa nendele reageerid.",
+    "slug": "pisike-osa-elust-on-vaeljakutsed-oluliselt-suurema-osa-moodustab-see-kuidas-sa-nendele-reageerid",
     "isoDate": "2021-09-22",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUHUs26tt58/",
@@ -724,6 +796,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Keegi teine ei ole vastutav sinu õnne eest.",
+    "slug": "keegi-teine-ei-ole-vastutav-sinu-onne-eest",
     "isoDate": "2021-09-23",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUJ2FJcNTjH/",
@@ -734,6 +807,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Õhtud on unistamiseks ja päev nende unistuste elluviimiseks.",
+    "slug": "ohtud-on-unistamiseks-ja-paeev-nende-unistuste-elluviimiseks",
     "isoDate": "2021-09-24",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUMdJCGNYmd/",
@@ -744,6 +818,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Probleemi esinemisel tuleb keskenduda selle lahendamisele mitte probleemile endale.",
+    "slug": "probleemi-esinemisel-tuleb-keskenduda-selle-lahendamisele-mitte-probleemile-endale",
     "isoDate": "2021-09-25",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUPLbpStND9/",
@@ -754,6 +829,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Motivatsioon paneb tegutsema ja distsipliin hoiab tegutsemas.",
+    "slug": "motivatsioon-paneb-tegutsema-ja-distsipliin-hoiab-tegutsemas",
     "isoDate": "2021-09-27",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUUKBtJtfYS/",
@@ -764,6 +840,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Paljud probleemid saavad alguse eeldamisest.",
+    "slug": "paljud-probleemid-saavad-alguse-eeldamisest",
     "isoDate": "2021-09-28",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUWybJKtFkb/",
@@ -774,6 +851,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Teiste inimeste vigu on lihtsam ära tunda kui enda omi.",
+    "slug": "teiste-inimeste-vigu-on-lihtsam-aera-tunda-kui-enda-omi",
     "isoDate": "2021-09-29",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUZUAVENHjv/",
@@ -784,6 +862,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Keskendu asjadele, mida sa saad ise muuta.",
+    "slug": "keskendu-asjadele-mida-sa-saad-ise-muuta",
     "isoDate": "2021-09-30",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUb4HxiNPhw/",
@@ -794,6 +873,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Inimesed usuvad suurema tõenäosusega argumente, mis pooldavad nende väljavaateid.",
+    "slug": "inimesed-usuvad-suurema-toenaeosusega-argumente-mis-pooldavad-nende-vaeljavaateid",
     "isoDate": "2021-10-01",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUed5IOt3g3/",
@@ -804,6 +884,7 @@ export const QUOTES: Quote[] = [
   },
   {
     "desc": "Paljud inimesed jätavad hääletamata, kuna nad usuvad, et nende hääl ei muudaks midagi.",
+    "slug": "paljud-inimesed-jaetavad-haeaeletamata-kuna-nad-usuvad-et-nende-haeael-ei-muudaks-midagi",
     "isoDate": "2021-10-02",
     "socialMedia": {
       "instagram": "https://www.instagram.com/p/CUg9HqhtVmY/",

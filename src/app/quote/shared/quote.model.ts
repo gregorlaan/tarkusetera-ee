@@ -4,4 +4,5 @@ export interface Quote {
   desc: string;
   isoDate: string;
   socialMedia: SocialMedia;
+  slug: string;
 }
