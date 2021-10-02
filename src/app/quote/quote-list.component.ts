@@ -16,7 +16,7 @@ export class QuoteListComponent implements OnInit {
     this.getQuotes();
   }
 
-  private getQuotes() {
+  private getQuotes(): void {
     this.quoteService.getQuotes().then(quotes => this.quotes = quotes);
   }
 

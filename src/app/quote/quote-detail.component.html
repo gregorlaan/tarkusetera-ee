@@ -1,1 +1,12 @@
-<p>quote-detail works!</p>
+<div *ngIf="quote">
+
+  <h1>{{ quote.desc }}</h1>
+
+  <ul *ngIf="quote.socialMedia">
+    <li><a [href]="quote.socialMedia.instagram">Instagram</a></li>
+    <li><a [href]="quote.socialMedia.facebook">Facebook</a></li>
+    <li><a [href]="quote.socialMedia.twitter">Twitter</a></li>
+    <li><a [href]="quote.socialMedia.pinterest">Pinterest</a></li>
+  </ul>
+
+</div>

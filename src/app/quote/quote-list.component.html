@@ -1,6 +1,6 @@
 <ul>
   <li *ngFor="let quote of quotes">
-    {{ quote.desc }} ({{ quote.isoDate }})
+    {{ quote.desc }} <a routerLink="/tsitaat/{{quote.slug}}">({{ quote.isoDate }})</a>
   </li>
 </ul>
 
