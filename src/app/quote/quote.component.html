@@ -1,1 +1,6 @@
-<p>quote works!</p>
+<ul>
+  <li *ngFor="let quote of quotes">
+    {{ quote.desc }} ({{ quote.isoDate }})
+  </li>
+</ul>
+

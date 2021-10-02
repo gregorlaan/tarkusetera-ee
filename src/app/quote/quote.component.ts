@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Quote } from './shared/quote.model';
+import { QuoteService } from './shared/quote.service';
 
 @Component({
   selector: 'app-quote',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quote.component.scss']
 })
 export class QuoteComponent implements OnInit {
+  public quotes: Quote[] = [];
 
-  constructor() { }
+  constructor(private quoteService: QuoteService) { }
 
   ngOnInit(): void {
+    this.getQuotes();
+  }
+
+  private getQuotes() {
+    this.quoteService.getQuotes().then(quotes => this.quotes = quotes);
   }
 
 }
