@@ -13,8 +13,8 @@ export class QuoteListComponent implements OnInit {
   public quotes: Quote[] = [];
 
   constructor(
-    private router: Router,
-    private quoteService: QuoteService
+    private _router: Router,
+    private _quoteService: QuoteService
   ) { }
 
   ngOnInit(): void {
@@ -22,17 +22,17 @@ export class QuoteListComponent implements OnInit {
   }
 
   public dateSelected(date: Moment): void {
-    this.quoteService.getQuoteByDate(date).then(quote => {
+    this._quoteService.getQuoteByDate(date).then(quote => {
       if(!quote?.slug) {
         return;
       }
 
-      this.router.navigate(['/tsitaat', quote.slug]);
+      this._router.navigate(['/tsitaat', quote.slug]);
     });
   }
 
   private getQuotes(): void {
-    this.quoteService.getQuotes().then(quotes => this.quotes = quotes);
+    this._quoteService.getQuotes().then(quotes => this.quotes = quotes);
   }
 
 }

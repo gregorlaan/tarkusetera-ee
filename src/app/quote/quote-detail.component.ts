@@ -12,8 +12,8 @@ export class QuoteDetailComponent implements OnInit {
   public quote: Quote = {} as Quote;
 
   constructor(
-    private route: ActivatedRoute,
-    private quoteService: QuoteService
+    private _route: ActivatedRoute,
+    private _quoteService: QuoteService
   ) { }
 
   ngOnInit(): void {
@@ -21,8 +21,8 @@ export class QuoteDetailComponent implements OnInit {
   }
 
   private getQuote(): void {
-    const slug = this.route.snapshot.paramMap.get('slug') ?? '';
-    this.quoteService.getQuote(slug).then(quote => {
+    const slug = this._route.snapshot.paramMap.get('slug') ?? '';
+    this._quoteService.getQuote(slug).then(quote => {
       if (!quote) {
         return;
       }
