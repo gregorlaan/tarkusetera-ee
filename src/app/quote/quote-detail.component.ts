@@ -9,7 +9,8 @@ import { QuoteService } from './shared/quote.service';
   styleUrls: ['./quote-detail.component.scss']
 })
 export class QuoteDetailComponent implements OnInit {
-  public quote: Quote = {} as Quote;
+  public quote?: Quote = {} as Quote;
+  public date: Date = new Date();
 
   constructor(
     private _route: ActivatedRoute,
@@ -17,13 +18,20 @@ export class QuoteDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.getQuote();
+    this.initQuote();
   }
 
-  private getQuote(): void {
-    const slug = this._route.snapshot.paramMap.get('slug') ?? '';
+  private initQuote(): void {
+    this._route.params.subscribe(params => {
+      const slug = params?.slug || '';
+      this.setQuote(slug);
+    })
+  }
+
+  private setQuote(slug: string) {
     this._quoteService.getQuote(slug).then(quote => {
       if (!quote) {
+        this.quote = undefined;
         return;
       }
 

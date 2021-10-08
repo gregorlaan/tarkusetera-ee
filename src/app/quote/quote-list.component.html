@@ -1,8 +1,9 @@
-<mat-calendar (selectedChange)="dateSelected($event)"></mat-calendar>
+<mat-calendar
+  [selected]="selectedDate"
+  [dateClass]="dateClass()"
+  [minDate]="minDate"
+  [maxDate]="maxDate"
+  (selectedChange)="dateSelected($event)"
+></mat-calendar>
 
-<ul>
-  <li *ngFor="let quote of quotes">
-    {{ quote.desc }} <a routerLink="/tsitaat/{{quote.slug}}">({{ quote.isoDate }})</a>
-  </li>
-</ul>
-
+<router-outlet></router-outlet>

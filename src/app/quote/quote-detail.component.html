@@ -1,3 +1,9 @@
+<div class="top">
+  <div class="weekday">{{ date | date: 'EEEE' }}</div>
+  <div class="date">{{ date | date: 'd' }}</div>
+  <div class="month">{{ date | date: 'MMMM' }}</div>
+</div>
+
 <div *ngIf="quote">
 
   <h1>{{ quote.desc }}</h1>

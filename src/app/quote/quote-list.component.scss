@@ -1,0 +1,25 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+::ng-deep {
+  .special-date .mat-calendar-body-cell-content {
+    border: 2px solid #3f51b5;
+  }
+
+  @media screen and (min-width: 992px) {
+    .mat-calendar,
+    app-quote-detail {
+      flex: 1 0 0%;
+    }
+  }
+}
+
+.mat-calendar {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatCalendarCellCssClasses } from '@angular/material/datepicker';
 import { Router } from '@angular/router';
-import { Moment } from 'moment';
 import { Quote } from './shared/quote.model';
 import { QuoteService } from './shared/quote.service';
 
@@ -11,6 +11,9 @@ import { QuoteService } from './shared/quote.service';
 })
 export class QuoteListComponent implements OnInit {
   public quotes: Quote[] = [];
+  public minDate: Date = new Date('2021-07-01');
+  public maxDate: Date = new Date();
+  public selectedDate: Date = new Date();
 
   constructor(
     private _router: Router,
@@ -18,20 +21,29 @@ export class QuoteListComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.getQuotes();
+    this.initQuotes();
   }
 
-  public dateSelected(date: Moment): void {
-    this._quoteService.getQuoteByDate(date).then(quote => {
-      if(!quote?.slug) {
-        return;
-      }
+  public dateSelected(date: any): void {
+    this.selectedDate = date;
 
-      this._router.navigate(['/tsitaat', quote.slug]);
+    this._quoteService.getQuoteByDate(date).then(quote => {
+      const parameter = quote?.slug || '';
+      this._router.navigate(['/tsitaat', parameter]);
     });
   }
 
-  private getQuotes(): void {
+  public dateClass() {
+    return (date: any): MatCalendarCellCssClasses => {
+      if(date < this.maxDate && date.isoWeekday() !== 7) {
+        return 'special-date';
+      }
+
+      return '';
+    };
+  }
+
+  private initQuotes(): void {
     this._quoteService.getQuotes().then(quotes => this.quotes = quotes);
   }
 
